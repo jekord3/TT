@@ -56,6 +56,10 @@
   margin-bottom: 30px;
 }
 
+.changeColor summary {
+  color: #5d5fef;
+}
+
 /* Details */
 
 summary {
