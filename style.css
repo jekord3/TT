@@ -1,0 +1,92 @@
+.page-body {
+  font-family: "Nunito", "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.container {
+  width: 1440px;
+  height: 670px;
+  background-color: #19191b;
+  color: #bdbdc3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65.05px;
+}
+
+.button {
+  width: 133px;
+  height: 47px;
+  border-radius: 10px;
+  border: 1px;
+  background-color: #5d5fef;
+  cursor: pointer;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.FAQs {
+  padding-left: 100px;
+}
+
+.reply {
+  padding-right: 100px;
+}
+
+.FAQs,
+.reply {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.fonts {
+  font-family: Nunito;
+}
+
+.p-fonts {
+  font-weight: 400;
+}
+
+.create-line {
+  width: 100%;
+  border-top: 1px solid #f4f4f4;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Details */
+
+summary {
+  position: relative;
+}
+summary::marker {
+  content: none;
+}
+summary::before,
+summary::after {
+  content: "";
+}
+
+details summary {
+  cursor: pointer;
+}
+
+summary::before,
+summary::after {
+  width: 0.75em;
+  height: 0;
+  border-bottom: 2px solid;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 0;
+  transform: translateY(-50%);
+}
+summary::after {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+[open] summary::after {
+  transform: rotate(0deg);
+}
